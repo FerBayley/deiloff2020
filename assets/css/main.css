@@ -1,0 +1,266 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero {
+    background: url(../../assets/images/hero.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.copy {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    font-size: 50px;
+    margin-top: 70px;
+}
+.bienvenida {
+    background-color: black;
+    height: auto;
+    padding: 20px 0 20px 0;
+}
+.prefooter  {
+    background-color: #484848;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+.footer {
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+.navbar {
+    background-color: #333333!important;
+}
+.navbar a {
+    color: #FFF!important;
+}
+.hero h3 {
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.cuadro {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 10px;
+}
+.queEstasBuscando {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 10px;
+}
+.bienvenida h1 {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
+.bienvenida {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    padding: 30px 0 20px 0;
+    font-size: 14px;
+}
+.footer p {
+    font-family: 'Alata', sans-serif;
+    font-size: 13px;
+    padding: 16px 0 0 0;
+}
+.cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.cuadro:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    color: #FFF;
+    -webkit-transition: all 0.6ms ease;
+    -moz-transition: all 0.6ms ease;
+    -ms-transition: all 0.6ms ease;
+    -o-transition: all 0.6ms ease;
+    transition: all 0.6ms ease;
+}
+.cuadro h2 {
+    font-size: 20px;
+}
+.heroQueTrabajoEstasBuscando {
+    background: url(../../assets/images/hero-trabajos.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroQueTrabajoEstasBuscando h2 {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+}
+.mesada img {
+    height: auto;
+    width: 100%;
+}
+.mesada h3 {
+    font-size: 13px;
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    margin-top: 10px;
+}
+.linea {
+    background-color: #FFF;
+    height: 1px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.seleccionDeMateriales img {
+    height: auto;
+    width: 100%;
+}
+.materialesDisponiblesMesada {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.lineaBlack {
+    background-color: #000;
+    height: 1px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.materialesDisponiblesMesada h2 {
+    margin-top: 100px;
+}
+.resumenFinalDeMateriales img {
+    height: auto;
+    width: 100%;
+}
+.formularioRecibidoOk {
+    background: url(../../assets/images/hero-trabajos.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #FFF;
+}
+.formularioRecibidoOk h2 {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+.formularioRecibidoOk p {
+    color: #FFF;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.formularioRecibidoOk a {
+    color: #FFF;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+   _____             .___.__        
+  /     \   ____   __| _/|__|____   
+ /  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+        \/     \/     \/         \/ 
+                           .__               
+  ________ __   ___________|__| ____   ______
+ / ____/  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+< <_|  |  |  /\  ___/|  | \/  \  ___/ \___ \ 
+ \__   |____/  \___  >__|  |__|\___  >____  >
+    |__|           \/              \/     \/ 
+
+
+*/
+
+
+@media (min-width: 320px) {
+    body {
+        border: solid 1px red;
+    }
+}
+
+@media (min-width: 375px) {
+    body {
+        border: solid 10x green;
+    }
+}
+
+@media (min-width: 414px) {
+    body {
+        border: solid 1px blue;
+    }
+}
+
+@media (min-width: 425px) {
+    body {
+        border: solid 1px yellow;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        border: solid 1px violet;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        border: solid 1px peru;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        border: solid 1px brown;
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        border: solid 1px limegreen;
+    }
+}
