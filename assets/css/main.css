@@ -16,6 +16,14 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.hero a {
+    color: #000;
+    text-decoration: none;
+}
+.hero a:hover {
+    color: #000;
+    text-decoration: none;
+}
 .copy {
     color: #FFF;
     font-family: 'Alata', sans-serif;
@@ -38,9 +46,14 @@ body {
 }
 .navbar {
     background-color: #333333!important;
+    font-size: 14px!important;
 }
 .navbar a {
     color: #FFF!important;
+}
+.navbar a:hover {
+    color: #FFF!important;
+    text-decoration: underline;
 }
 .hero h3 {
     color: #FFF;
@@ -69,6 +82,12 @@ body {
     padding: 30px 0 20px 0;
     font-size: 14px;
 }
+.bienvenida a {
+    color: #FFF;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .footer p {
     font-family: 'Alata', sans-serif;
     font-size: 13px;
@@ -79,6 +98,10 @@ body {
     justify-content: center;
     align-items: left;
     flex-direction: column;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
 }
 .cuadro:hover {
     background-color: rgba(0, 0, 0, 0.7);
@@ -87,11 +110,10 @@ body {
     align-items: left;
     flex-direction: column;
     color: #FFF;
-    -webkit-transition: all 0.6ms ease;
-    -moz-transition: all 0.6ms ease;
-    -ms-transition: all 0.6ms ease;
-    -o-transition: all 0.6ms ease;
-    transition: all 0.6ms ease;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
 }
 .cuadro h2 {
     font-size: 20px;
@@ -125,6 +147,20 @@ body {
     font-family: 'Alata', sans-serif;
     margin-top: 10px;
 }
+.mesada a {
+    text-decoration: none;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
+}
+.mesada a:hover {
+    opacity: 0.5;
+    -webkit-transition: all 1.3s 0s ease;
+    -moz-transition: all 1.3s 0s ease;
+    -o-transition: all 1.3s 0s ease;
+    transition: all 1.3s 0s ease;
+}
 .linea {
     background-color: #FFF;
     height: 1px;
@@ -153,9 +189,32 @@ body {
 .materialesDisponiblesMesada h2 {
     margin-top: 100px;
 }
+.resumenFinalDeMateriales {
+    height: auto;
+    padding: 50px 0 100px 0;
+}
+.resumenFinalDeMateriales h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
 .resumenFinalDeMateriales img {
     height: auto;
     width: 100%;
+}
+.resumenFinalDeMateriales input {
+    height: 45px;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.resumenFinalDeMateriales h3 {
+    margin-top: 20px;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+}
+.resumenFinalDeMateriales p {
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    color: grey;
 }
 .formularioRecibidoOk {
     background: url(../../assets/images/hero-trabajos.png) no-repeat center
@@ -189,6 +248,295 @@ body {
     color: #FFF;
     font-size: 25px;
 }
+.header {
+    width: 100%;
+    background-color: #333333;
+    height: auto;
+}
+.imgFabricas img {
+    height: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.franja {
+    background: url(../../assets/images/franja.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.servicios {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+.servicios img {
+    margin: 50px 0 10px 0;
+}
+.servicios h3 {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+}
+.empresa {
+    margin: 50px 0 100px 0;
+}
+.empresa h2 {
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    margin-top: 50px;
+}
+.empresa article p {
+    color: grey;
+}
+.contacto {
+    height: auto;
+    padding: 50px 0 100px 0;
+}
+.contacto h2 {
+    font-size: 18px;
+}
+.contacto p {
+    color: grey;
+    font-size: 16px;
+}
+.btnTrabajaConNosotros {
+    width: 100%;
+    height: 50px;
+    background-color: #e17055;
+    font-family: 'Alata', sans-serif;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+}
+.btnContacto {
+    width: 100%;
+    height: 50px;
+    background-color: #e17055;
+    font-family: 'Alata', sans-serif;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+}
+.blog {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+.blog img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.blog h2 {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+}
+.blog p {
+    text-align: left;
+    color: grey;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+}
+.btnMasBlog {
+    float: left;
+    border: 0;
+    background-color: #e17055;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    color: #FFF;
+}
+.form input {
+    border-radius: 0;
+    height: 55px;
+}
+.form textarea {
+    border-radius: 0;
+    height: 100px;
+}
+.form h2 {
+    font-family: 'Alata', sans-serif;
+}
+.form p {
+    color: grey;
+    font-size: 15px;
+}
+.prueba {
+    height: auto;
+}
+.cabezalMesada {
+    background: url(../../assets/images/mesadas.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mesadas {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+.mesadas img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mesadas h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.mesadas p {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: grey;
+}
+.cabezalBano {
+    background: url(../../assets/images/banos.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banos {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+.banos img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.banos h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.banos p {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: grey;
+}
+.cabezalRevestimientos {
+    background: url(../../assets/images/revestimientos.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.revestimientos {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+.revestimientos img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.revestimientos h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.revestimientos p {
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: grey;
+}
+.btnSeleccionarMaterial {
+    border: solid 1px black;
+    float: left;
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+    height: 45px;
+    background-color: #FFF;
+    color: #000;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.btnSeleccionarMaterial:hover {
+    border: 0;
+    float: left;
+    font-family: 'Alata', sans-serif;
+    width: 100%;
+    height: 45px;
+    background-color: #e17055;
+    color: #FFF;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.btnEnviarFormDeVentas {
+    height: 45px;
+    border: none;
+    width: 100%;
+    background-color: #e17055;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+}
+.btnDesplegable {
+    height: 40px;
+    width: 100%;
+    font-family: 'Alata', sans-serif;
+    background-color: #e17055;
+    border: 0;
+    color: #FFF;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+.btnDesplegable:hover {
+    height: 40px;
+    width: 100%;
+    font-family: 'Alata', sans-serif;
+    background-color: #FFF;
+    border: solid 1px #000;
+    color: #000;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
 
 
 
@@ -218,49 +566,58 @@ body {
 
 
 @media (min-width: 320px) {
-    body {
-        border: solid 1px red;
+    .hero {
+        background-color: red;
+        height: 100%;
+    }
+    .form img {
+        height: auto;
+        width: 100%;
     }
 }
 
-@media (min-width: 375px) {
-    body {
-        border: solid 10x green;
-    }
-}
+@media (min-width: 375px) {}
 
-@media (min-width: 414px) {
-    body {
-        border: solid 1px blue;
-    }
-}
+@media (min-width: 414px) {}
 
-@media (min-width: 425px) {
-    body {
-        border: solid 1px yellow;
-    }
-}
+@media (min-width: 425px) {}
 
-@media (min-width: 768px) {
-    body {
-        border: solid 1px violet;
-    }
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 1024px) {
-    body {
-        border: solid 1px peru;
-    }
-}
+@media (min-width: 1024px) {}
 
 @media (min-width: 1440px) {
-    body {
-        border: solid 1px brown;
+    .hero {
+        background: url(../../assets/images/hero.png) no-repeat center
+        center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
-
 @media (min-width: 2560px) {
-    body {
-        border: solid 1px limegreen;
+    .blog {
+        height: 100vh;
+    }
+    .hero {
+        background: url(../../assets/images/hero.png) no-repeat center
+        center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
